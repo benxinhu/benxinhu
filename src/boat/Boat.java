@@ -19,4 +19,8 @@ public class Boat {
 	public Boat(String name) {
 	this.name = name;
 	}
+	
+	public void Start(){
+		System.out.println("Boat " + name + "Start");
+	}
 }

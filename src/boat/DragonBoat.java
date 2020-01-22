@@ -24,4 +24,9 @@ public class DragonBoat extends Boat {
 	public String toString() {
 	return "DragonBoat [name=" + getName() + "color=" + color + "]";
 	}
+	
+	@Override
+	public void Start(){
+		System.out.println("DragonBoat " + getName() + " Rowing");
+	}
 }
